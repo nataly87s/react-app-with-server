@@ -1,0 +1,7 @@
+version: "3"
+services:
+  editor:
+    image: editor-test
+    build: .
+    ports:
+      - "3002:3000"
